@@ -3,7 +3,7 @@
     "name": "control_jugador",
     "maps": [
         {
-            "name": "New action map",
+            "name": "jugador",
             "id": "bdec0a78-a454-4cab-82a0-20585a01ccba",
             "actions": [
                 {
@@ -113,7 +113,7 @@
                 {
                     "name": "",
                     "id": "b5699f13-cbff-46dd-a94b-7595d1f4559a",
-                    "path": "<Keyboard>/f",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

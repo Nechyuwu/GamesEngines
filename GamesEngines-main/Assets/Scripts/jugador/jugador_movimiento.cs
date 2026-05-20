@@ -71,6 +71,7 @@ public class jugador_movimiento : MonoBehaviour {
 
     void IntentarSaltar() {
         if (EstaEnSuelo()) {
+            AudioManager.Instance.Play(AudioManager.SoundType.Brinco);
             rigid_body.AddForce(Vector3.up * fuerza_salto, ForceMode.Impulse);
             cambiar_estado(EstadosMovimiento.saltando);
         }
@@ -82,6 +83,7 @@ public class jugador_movimiento : MonoBehaviour {
 
     void IntentarDash() {
         if (puede_dashear) {
+            AudioManager.Instance.Play(AudioManager.SoundType.Dash);
             cambiar_estado(EstadosMovimiento.dash);
             Vector3 direccion = transform.forward; // dash hacia adelante
             rigid_body.AddForce(direccion * fuerza_dash, ForceMode.Impulse);

@@ -5,10 +5,11 @@ public class AudioManager : MonoBehaviour
 {
     public enum SoundType
     {
-        Voz,
         Brinco,
         Dash,
-        Objetorecolectado
+        Objetorecolectado,
+         VozNpc1,
+        VozNpc2,
         // Add more sound types as needed
     }
  

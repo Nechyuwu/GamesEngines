@@ -9,7 +9,13 @@ public class AudioManager : MonoBehaviour
         Dash,
         Objetorecolectado,
          VozNpc1,
-        VozNpc2,
+        VozNpc3,
+        VozNpc6,
+        VozNpc7,
+        VozNpc8,
+        VozNpc9,
+         VozDino,
+         VozNpc2,
         // Add more sound types as needed
     }
  
